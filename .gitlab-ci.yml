@@ -1,0 +1,6 @@
+include:
+  - project: "gitlab/templates"
+    ref: ${_TEMPLATE_PIPELINE_REF_BRANCH}
+    file:
+      - Gitlab-CI/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}/gitlab-ci.yml
+
